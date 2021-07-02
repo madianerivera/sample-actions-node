@@ -1,0 +1,26 @@
+{
+  "name": "sample-actions-node",
+  "version": "1.0.0",
+  "description": "Sample Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci --reporters=default --reporters=jest-junit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madianerivera/sample-actions-node.git"
+  },
+  "author": "Diane Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madianerivera/sample-actions-node/issues"
+  },
+  "homepage": "https://github.com/madianerivera/sample-actions-node#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "jest-junit": "^12.2.0"
+  },
+  "jest": {
+    "reporters": [ "default", "jest-junit" ]
+  }
+}
