@@ -26,5 +26,8 @@
       "default",
       "jest-junit"
     ]
+  },
+  "release": {
+    "branches": ["main", "feature"]
   }
 }
