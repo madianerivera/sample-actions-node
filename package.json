@@ -28,6 +28,6 @@
     ]
   },
   "release": {
-    "branches": ["main", "feature", {"name": "new-feat", "prerelease": true }]
+    "branches": [{"name": "new-feat", "prerelease": true }]
   }
 }
