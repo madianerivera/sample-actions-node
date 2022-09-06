@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/madianerivera/sample-actions-node#readme",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "jest": "^27.0.6",
     "jest-junit": "^12.2.0",
     "semantic-release": "^19.0.5"
@@ -33,7 +34,7 @@
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
-      "@semantic-release/changelog",
+      "@semantic-release/release-notes-generator",
       "@semantic-release/npm",
       "@semantic-release/git",
       "@semantic-release/github"
