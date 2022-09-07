@@ -35,7 +35,8 @@
         "releaseRules": [
           {"type": "feature", "release": "minor"},
           {"type": "docs", "release": "patch"},
-          {"type": "ci", "release": "patch"}
+          {"type": "ci", "release": "patch"},
+          {"type": "ut", "release": "patch"}
         ]
       }],
       "@semantic-release/release-notes-generator",
