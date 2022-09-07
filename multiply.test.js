@@ -11,3 +11,7 @@ test('multiply 3 * 3 to equal 9', () => {
 test('multiply 3 * 1 to equal 3', () => {
   expect(multiply(3, 1)).toBe(3);
 });
+
+test('multiply 3 * 1 to equal 3', () => {
+  expect(multiply(3, 1)).toBe(3);
+});
