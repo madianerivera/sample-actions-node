@@ -33,6 +33,7 @@
       ["@semantic-release/commit-analyzer", {
         "preset": "angular",
         "releaseRules": [
+          {"type": "feature", "release": "minor"},
           {"type": "docs", "release": "patch"},
           {"type": "ci", "release": "patch"}
         ]
