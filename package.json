@@ -1,7 +1,7 @@
 {
   "name": "sample-actions-node",
   "version": "1.0.0",
-  "description": "Sample Actions",
+  "description": "Sample Actions 2",
   "main": "index.js",
   "scripts": {
     "test": "jest --ci --reporters=default --reporters=jest-junit"
